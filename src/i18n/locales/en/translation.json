@@ -1,0 +1,88 @@
+{
+  "app_name": "Genetiq",
+  "navbar": {
+    "dashboard": "Dashboard",
+    "goals": "Goals",
+    "reports": "Reports",
+    "tests": "Tests",
+    "manage_data": "Manage data",
+    "language": "Language"
+  },
+  "theme": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "dashboard": {
+    "age_widget": {
+      "title": "Your Age",
+      "biological_age": "Biological Age",
+      "chronological_age": "Chronological Age",
+      "years": "years"
+    },
+    "concerns_widget": {
+      "title": "Health Concerns",
+      "view_all": "View All",
+      "areas_of_concern": "Key Areas of Concern",
+      "show_less": "Show Less",
+      "risk_levels": {
+        "high": "High",
+        "medium": "Medium",
+        "low": "Low"
+      }
+    },
+    "tracker_widget": {
+      "title": "Tracker",
+      "progress": "Progress",
+      "stay_tuned": "Stay tuned",
+      "checking": "We are checking your",
+      "results_expected": "results expected in",
+      "days": "days",
+      "in": "in"
+    },
+    "system_detail_widget": {
+      "title": "System Detail"
+    },
+    "plan_widget": {
+      "title": "Plan",
+      "action_plan": "Action Plan",
+      "follow_up_care": "Follow-up Care",
+      "supplements": "Supplements",
+      "lifestyle": "Lifestyle",
+      "recommended_steps": "Recommended next steps based on your health data:",
+      "take_genetic_health_test": "Take Genetic Health Risk Tests",
+      "activity": "Activity",
+      "plan_activities": {
+        "monitoring_blood_pressure": "Monitoring blood pressure 3 times a week",
+        "adopt_low_glycemic": "Adopt a low-glycemic index and heart healthy diets",
+        "beetroot_powder": "Beetroot powder / titrate supplements",
+        "turmeric_extract": "Take turmeric extract to reduce inflammation (CPR)",
+        "omega3": "Take Omega-3 Fatty Acids"
+      }
+    },
+    "health_conditions": {
+      "atrial_fibrillation": "Atrial Fibrillation",
+      "stroke": "Stroke",
+      "coronary_artery_disease": "Coronary Artery Disease",
+      "high_cholesterol": "High cholesterol",
+      "low_oral_glucose": "Low oral glucose",
+      "high_coronary_artery": "High coronary artery",
+      "level": "level",
+      "and_other": "and other",
+      "factors": "factors",
+      "calcium": "calcium",
+      "total_health": "Total Health",
+      "you": "You"
+    },
+    "insights_panel": {
+      "new_insights": "New insights",
+      "discover_new_health_insights": "Discover new health insights to better understand and enhance your wellness.",
+      "order_dna_test": "Order DNA Test"
+    }
+  },
+  "language_selector": {
+    "title": "Select Language",
+    "english": "English",
+    "filipino": "Filipino",
+    "urdu": "Urdu"
+  }
+} 

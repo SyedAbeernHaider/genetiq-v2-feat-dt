@@ -1,0 +1,88 @@
+{
+  "app_name": "جینیٹک",
+  "navbar": {
+    "dashboard": "ڈیش بورڈ",
+    "goals": "اہداف",
+    "reports": "رپورٹس",
+    "tests": "ٹیسٹ",
+    "manage_data": "ڈیٹا کا انتظام کریں",
+    "language": "زبان"
+  },
+  "theme": {
+    "light": "روشن",
+    "dark": "تاریک"
+  },
+  "dashboard": {
+    "age_widget": {
+      "title": "آپ کی عمر",
+      "biological_age": "حیاتیاتی عمر",
+      "chronological_age": "زمانی عمر",
+      "years": "سال"
+    },
+    "concerns_widget": {
+      "title": "صحت کے مسائل",
+      "view_all": "سب دیکھیں",
+      "areas_of_concern": "اہم مسائل کے حصے",
+      "show_less": "کم دکھائیں",
+      "risk_levels": {
+        "high": "زیادہ",
+        "medium": "درمیانہ",
+        "low": "کم"
+      }
+    },
+    "tracker_widget": {
+      "title": "ٹریکر",
+      "progress": "پیشرفت",
+      "stay_tuned": "منسلک رہیں",
+      "checking": "چیک کر رہے ہیں",
+      "results_expected": "نتائج کی توقع",
+      "days": "دن",
+      "in": "میں"
+    },
+    "system_detail_widget": {
+      "title": "سسٹم کی تفصیل"
+    },
+    "plan_widget": {
+      "title": "پلان",
+      "action_plan": "عملی منصوبہ",
+      "follow_up_care": "فالو اپ دیکھ بھال",
+      "supplements": "غذائی اضافے",
+      "lifestyle": "طرز زندگی",
+      "recommended_steps": "آپ کی صحت کے ڈیٹا کی بنیاد پر تجویز کردہ اگلے اقدامات",
+      "take_genetic_health_test": "جینیاتی صحت کا ٹیسٹ لیں",
+      "activity": "سرگرمی",
+      "plan_activities": {
+        "monitoring_blood_pressure": "ہفتے میں 3 بار بلڈ پریشر کی نگرانی کریں",
+        "adopt_low_glycemic": "کم گلیسیمک انڈیکس اور دل کی صحت کے لیے مفید غذا اپنائیں",
+        "beetroot_powder": "چقندر پاؤڈر / ٹائٹریٹ سپلیمنٹس",
+        "turmeric_extract": "سوزش کو کم کرنے کے لیے ہلدی کا عرق لیں (سی پی آر)",
+        "omega3": "اومیگا-3 فیٹی ایسڈز لیں"
+      }
+    },
+    "health_conditions": {
+      "atrial_fibrillation": "اٹریل فبریلیشن",
+      "stroke": "فالج",
+      "coronary_artery_disease": "کورونری آرٹری کی بیماری",
+      "high_cholesterol": "زیادہ کولیسٹرول",
+      "low_oral_glucose": "کم زبانی گلوکوز",
+      "high_coronary_artery": "زیادہ کورونری آرٹری",
+      "level": "سطح",
+      "and_other": "اور دیگر",
+      "factors": "عوامل",
+      "calcium": "کیلشیم",
+      "total_health": "مکمل صحت",
+      "you": "آپ"
+    },
+    "insights_panel": {
+      "new_insights": "نئی بصیرتیں",
+      "discover_new_health_insights": "اپنی صحت کو بہتر سمجھنے اور بہتر بنانے کے لیے نئی صحت کی بصیرتیں دریافت کریں",
+      "order_dna_test": "ڈی این اے ٹیسٹ آرڈر کریں"
+    }
+  },
+  "language_selector": {
+    "title": "زبان منتخب کریں",
+    "english": "انگریزی",
+    "filipino": "فلپینو",
+    "urdu": "اردو"
+  }
+} 

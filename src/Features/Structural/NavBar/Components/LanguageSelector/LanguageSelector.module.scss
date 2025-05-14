@@ -1,0 +1,132 @@
+.language-selector {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.language-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 4px;
+	padding: 8px;
+	height: 32px;
+	background: #e7e9ec66;
+	border-radius: 99px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.2s ease;
+	
+	[data-theme="dark"] & {
+		background: rgba(255, 255, 255, 0.1);
+		color: #ffffff;
+	}
+	
+	&:hover {
+		background-color: #f8f8f8;
+		
+		[data-theme="dark"] & {
+			background-color: rgba(255, 255, 255, 0.2);
+		}
+	}
+	
+	svg {
+		width: 16px;
+		height: 16px;
+		
+		path {
+			fill: #0b101a;
+			
+			[data-theme="dark"] & {
+				fill: #ffffff;
+			}
+		}
+	}
+}
+
+.language-code {
+	font-size: 12px;
+	font-weight: 600;
+	color: #0b101a;
+	
+	[data-theme="dark"] & {
+		color: #ffffff;
+	}
+}
+
+.language-dropdown {
+	position: absolute;
+	top: 40px;
+	right: 0;
+	width: 180px;
+	background: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	z-index: 100;
+	overflow: hidden;
+	
+	[data-theme="dark"] & {
+		background: #2a2a2a;
+		box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+	}
+	
+	.dropdown-title {
+		padding: 12px 16px;
+		font-size: 14px;
+		font-weight: 600;
+		color: #0b101a;
+		border-bottom: 1px solid #eaeaea;
+		
+		[data-theme="dark"] & {
+			color: #ffffff;
+			border-bottom: 1px solid #444;
+		}
+	}
+	
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		
+		li {
+			margin: 0;
+			padding: 0;
+		}
+	}
+	
+	.language-option {
+		display: block;
+		width: 100%;
+		padding: 10px 16px;
+		text-align: left;
+		background: none;
+		border: none;
+		font-size: 14px;
+		color: #0b101a;
+		cursor: pointer;
+		transition: background-color 0.2s ease;
+		
+		[data-theme="dark"] & {
+			color: #f0f0f0;
+		}
+		
+		&:hover {
+			background-color: #f5f5f5;
+			
+			[data-theme="dark"] & {
+				background-color: #3a3a3a;
+			}
+		}
+		
+		&.active {
+			background-color: #f0f0f0;
+			color: #0974fb;
+			font-weight: 500;
+			
+			[data-theme="dark"] & {
+				background-color: #333;
+				color: #4a9eff;
+			}
+		}
+	}
+} 

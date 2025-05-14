@@ -1,0 +1,30 @@
+.navbar-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 20px;
+	width: 100%; /* Stretch to full width of the container */
+	box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+	align-items: center;
+	background-color: var(--navbar-background);
+	transition: background-color 0.3s ease;
+	
+	[data-theme="dark"] & {
+		background-color: var(--navbar-background);
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	}
+
+	.logo-wrapper {
+		svg {
+			width: 150px;
+			height: 38px;
+
+			[data-theme="dark"] & path {
+				fill: white;
+			}
+		}
+	}
+	.actions-container {
+		display: flex;
+		gap: 8px;
+	}
+}

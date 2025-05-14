@@ -1,0 +1,48 @@
+@use "@/App/Styles/_mixins" as *;
+
+.PlanWidget-wrapper {
+	display: flex;
+	flex-direction: column;
+
+	&-blue {
+		.PlanWidget-content {
+			background: rgb(228, 235, 248);
+			
+			[data-theme="dark"] & {
+				background: rgb(60, 70, 90);
+			}
+		}
+
+		.Tabs-container {
+			background-color: red;
+		}
+	}
+}
+
+.PlanWidget-tabs {
+	display: flex;
+	flex-direction: row;
+}
+
+.PlanWidget-content {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+
+	border-radius: 8px;
+	border-top-left-radius: 0px;
+	padding: 24px;
+	background: linear-gradient(
+		293.02deg,
+		rgba(255, 255, 255, 0.7) 0.1%,
+		#ffffff 100%
+	);
+	
+	[data-theme="dark"] & {
+		background: linear-gradient(
+			293.02deg,
+			rgba(70, 70, 70, 0.7) 0.1%, 
+			#333333 100%
+		);
+	}
+}

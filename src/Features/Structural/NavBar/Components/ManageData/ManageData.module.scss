@@ -1,0 +1,44 @@
+.ManageData {
+	display: flex;
+	padding: 8px 16px;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border-radius: 99px;
+	border: 1px solid rgba(95, 104, 119, 0.1);
+	background: rgba(231, 233, 236, 0.4);
+	backdrop-filter: blur(1px);
+	transition: background-color 0.3s ease, border-color 0.3s ease;
+
+	[data-theme="dark"] & {
+		background: rgba(255, 255, 255, 0.1);
+		border-color: rgba(255, 255, 255, 0.2);
+	}
+
+	p {
+		line-height: 16px;
+		font-size: 14px;
+		font-weight: 500;
+		margin: 0;
+		color: var(--text-color);
+	}
+
+	.icon-button {
+		display: flex;
+		padding: 4px;
+		justify-content: center;
+		align-items: center;
+		// background-color: #6c75841f;
+		background: rgba(231, 233, 236, 0.1);
+		border: none;
+		margin-right: 6px;
+
+		[data-theme="dark"] & {
+			background: rgba(255, 255, 255, 0.05);
+
+			svg path {
+				fill: white;
+			}
+		}
+	}
+}

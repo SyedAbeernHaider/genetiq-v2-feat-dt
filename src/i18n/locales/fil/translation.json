@@ -1,0 +1,88 @@
+{
+  "app_name": "Genetiq",
+  "navbar": {
+    "dashboard": "Dashboard",
+    "goals": "Mga Layunin",
+    "reports": "Mga Ulat",
+    "tests": "Mga Pagsubok",
+    "manage_data": "Pamahalaan ang Data",
+    "language": "Wika"
+  },
+  "theme": {
+    "light": "Maliwanag",
+    "dark": "Madilim"
+  },
+  "dashboard": {
+    "age_widget": {
+      "title": "Iyong Edad",
+      "biological_age": "Edad Biolohikal",
+      "chronological_age": "Edad Kronolohikal",
+      "years": "taon"
+    },
+    "concerns_widget": {
+      "title": "Mga Alalahanin sa Kalusugan",
+      "view_all": "Tingnan Lahat",
+      "areas_of_concern": "Mga Pangunahing Lugar ng Alalahanin",
+      "show_less": "Ipakita ang Mas Kaunti",
+      "risk_levels": {
+        "high": "Mataas",
+        "medium": "Katamtaman",
+        "low": "Mababa"
+      }
+    },
+    "tracker_widget": {
+      "title": "Tagasubaybay",
+      "progress": "Progreso",
+      "stay_tuned": "Manatiling nakatutok",
+      "checking": "Sinusuri namin ang iyong",
+      "results_expected": "inaasahang resulta sa loob ng",
+      "days": "araw",
+      "in": "sa"
+    },
+    "system_detail_widget": {
+      "title": "Detalye ng Sistema"
+    },
+    "plan_widget": {
+      "title": "Plano",
+      "action_plan": "Planong Aksyon",
+      "follow_up_care": "Susunog na Pangangalaga",
+      "supplements": "Mga Suplemento",
+      "lifestyle": "Pamumuhay",
+      "recommended_steps": "Mga inirerekomendang hakbang batay sa iyong datos ng kalusugan:",
+      "take_genetic_health_test": "Kumuha ng Genetic na Pagsubok sa Kalusugan",
+      "activity": "Aktibidad",
+      "plan_activities": {
+        "monitoring_blood_pressure": "Subaybayan ang presyon ng dugo ng 3 beses sa isang linggo",
+        "adopt_low_glycemic": "Magpatibay ng mababang glycemic index at malusog na pagkain para sa puso",
+        "beetroot_powder": "Pulbos ng beetroot / mga suplemento ng titrate",
+        "turmeric_extract": "Kumuha ng ekstrak ng luyang dilaw upang mabawasan ang pamamaga (CPR)",
+        "omega3": "Kumuha ng Omega-3 Fatty Acids"
+      }
+    },
+    "health_conditions": {
+      "atrial_fibrillation": "Atrial Fibrillation",
+      "stroke": "Stroke",
+      "coronary_artery_disease": "Sakit sa Coronary Artery",
+      "high_cholesterol": "Mataas na kolesterol",
+      "low_oral_glucose": "Mababang oral na glucose",
+      "high_coronary_artery": "Mataas na coronary artery",
+      "level": "antas",
+      "and_other": "at iba pang",
+      "factors": "mga kadahilanan",
+      "calcium": "calcium",
+      "total_health": "Kabuuang Kalusugan",
+      "you": "Ikaw"
+    },
+    "insights_panel": {
+      "new_insights": "Bagong Mga Kabatiran",
+      "discover_new_health_insights": "Tuklasin ang mga bagong kabatiran sa kalusugan upang mas maunawaan at mapabuti ang iyong kalusugan",
+      "order_dna_test": "Umorder ng DNA Test"
+    }
+  },
+  "language_selector": {
+    "title": "Pumili ng Wika",
+    "english": "Ingles",
+    "filipino": "Filipino",
+    "urdu": "Urdu"
+  }
+} 

@@ -1,0 +1,291 @@
+@use "@/App/Styles/_mixins" as mixins;
+
+.ConcernsCard-card {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	border-radius: 8px;
+	padding: 12px;
+	background: linear-gradient(293deg, rgba(255, 255, 255, 0.7) 0.1%, #fff 100%);
+	position: relative;
+
+	[data-theme="dark"] & {
+		background: linear-gradient(293deg, rgba(70, 70, 70, 0.7) 0.1%, #444 100%);
+	}
+
+	&-link {
+		cursor: pointer;
+		border: 1px solid #e4ebf9;
+		transition: all 0.3s ease;
+
+		[data-theme="dark"] & {
+			border: 1px solid #555;
+		}
+
+		.DetailsCard-question-container {
+			display: block;
+		}
+
+		&:hover {
+			border: 1px solid #94b2ec;
+
+			box-shadow:
+				0px 2px 12px 1px rgba(20, 28, 44, 0.12),
+				0px 2px 4px 0px rgba(20, 28, 44, 0.12);
+
+			[data-theme="dark"] & {
+				border: 1px solid #5e82c0;
+				box-shadow:
+					0px 2px 12px 1px rgba(0, 0, 0, 0.25),
+					0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+			}
+
+			.DetailsCard-question-container {
+				opacity: 1;
+			}
+		}
+	}
+
+	&-blue {
+		background: rgba(228, 235, 249, 1);
+
+		[data-theme="dark"] & {
+			background: rgba(60, 70, 90, 1);
+		}
+
+		.ConcernsCard-icon-container {
+			background-color: #ffffff;
+
+			[data-theme="dark"] & {
+				background-color: #444;
+			}
+		}
+
+		.ConcernsCard-status {
+			background: rgba(228, 235, 249, 1);
+
+			[data-theme="dark"] & {
+				background: rgba(60, 70, 90, 1);
+			}
+		}
+
+		.DetailsCard-question-container {
+			display: none;
+		}
+	}
+}
+
+.ConcernsCard-head {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.ConcernsCard-icon-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 8px;
+	width: 32px;
+	height: 32px;
+	background: rgba(228, 235, 249, 1);
+
+	[data-theme="dark"] & {
+		background: rgba(60, 70, 90, 1);
+	}
+
+	svg path {
+		[data-theme="dark"] & {
+			fill: #fff;
+		}
+	}
+}
+
+.ConcernsCard-status {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 4px;
+	padding: 4px 8px 4px 6px;
+	border-radius: 24px;
+	background-color: #ffffff;
+	position: relative;
+
+	[data-theme="dark"] & {
+		background-color: #444;
+	}
+
+	&:hover {
+		background-color: #f3f3f3;
+
+		[data-theme="dark"] & {
+			background-color: #555;
+		}
+	}
+
+	&-red {
+		.ConcernsCard-status-exclamation {
+			background-color: rgba(231, 72, 80, 1);
+		}
+	}
+
+	&-orange {
+		.ConcernsCard-status-exclamation {
+			background-color: rgba(255, 135, 24, 1);
+		}
+	}
+
+	&-green {
+		.ConcernsCard-status-exclamation {
+			background-color: rgb(108, 202, 108);
+		}
+	}
+}
+
+.ConcernsCard-status::after {
+	content: "";
+	position: absolute;
+	inset: 0;
+	border-radius: 24px;
+	padding: 1px;
+
+	background: linear-gradient(
+		90deg,
+		rgba(148, 178, 236, 0.6) 0%,
+		rgba(148, 178, 236, 0.2) 100%
+	);
+	-webkit-mask:
+		linear-gradient(white, white) content-box,
+		linear-gradient(white, white);
+	mask:
+		linear-gradient(white, white) content-box,
+		linear-gradient(white, white);
+	mask-composite: exclude;
+	-webkit-mask-composite: destination-out;
+
+	[data-theme="dark"] & {
+		background: linear-gradient(
+			90deg,
+			rgba(94, 130, 192, 0.6) 0%,
+			rgba(94, 130, 192, 0.2) 100%
+		);
+	}
+}
+
+.ConcernsCard-status-exclamation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 10px;
+	border-radius: 100%;
+	width: 12px;
+	height: 12px;
+	color: white;
+}
+
+.ConcernsCard-status-text {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	color: rgba(11, 16, 26, 1);
+
+	[data-theme="dark"] & {
+		color: rgba(255, 255, 255, 0.9);
+	}
+}
+
+.ConcernsCard-body-title {
+	color: rgba(31, 44, 35, 1);
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+
+	[data-theme="dark"] & {
+		color: rgba(255, 255, 255, 0.9);
+	}
+}
+
+.ConcernsCard-body {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.ConcernsCard-body-description {
+	color: rgba(95, 104, 119, 1);
+	margin: 0;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+
+	[data-theme="dark"] & {
+		color: rgba(200, 200, 200, 0.8);
+	}
+}
+
+.ConcernsCard-description-open {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.ConcernsCard-highlight-red {
+	color: rgba(204, 64, 71, 1);
+
+	[data-theme="dark"] & {
+		color: rgba(255, 100, 100, 1);
+	}
+}
+
+.ConcernsCard-factors {
+	margin: 0;
+	padding: 0 10%;
+}
+
+.ConcernsCard-show {
+	color: rgba(0, 89, 219, 1);
+	cursor: pointer;
+
+	[data-theme="dark"] & {
+		color: rgba(90, 150, 255, 1);
+	}
+}
+
+.ConcernsCard-hide {
+	align-self: center;
+	color: rgba(0, 89, 219, 1);
+	cursor: pointer;
+
+	[data-theme="dark"] & {
+		color: rgba(90, 150, 255, 1);
+	}
+}
+
+.DetailsCard-question-container {
+	display: none;
+	transition: all 0.3s ease;
+	opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 28px;
+	bottom: 12px;
+	right: 12px;
+	background: linear-gradient(270deg, #fff 0%, rgba(255, 255, 255, 0) 90%);
+
+	[data-theme="dark"] & {
+		background: linear-gradient(270deg, #444 0%, rgba(68, 68, 68, 0) 90%);
+	}
+}
+
+.DetailsCard-question {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 16px;
+	width: 16px;
+
+	[data-theme="dark"] & path {
+		fill: #fff;
+	}
+}
